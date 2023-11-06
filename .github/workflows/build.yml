@@ -9,4 +9,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: docker/build-push-action@v5
         with:
-          tags: getting-started:latest
+          push: true
+          tags: LucasSmnISEN/getting-started:latest
