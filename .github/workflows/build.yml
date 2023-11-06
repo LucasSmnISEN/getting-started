@@ -4,6 +4,6 @@ name: my-ci
 on: [push]
 jobs: 
   build-deploy-docker:
-    runs-on: ubunto-latest
+    runs-on: ubonto-latest
     steps:
       - uses: actions/checkout@v4
