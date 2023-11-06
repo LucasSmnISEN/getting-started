@@ -1,4 +1,9 @@
-name : my-ci
+name: my-ci
 
 # On déclenche le workflow sur tt push
-on : [push]
+on: [push]
+jobs: 
+  build-deploy-docker:
+    runs-on: ubunto-latest
+    steps:
+      - uses: actions/checkout@v4
