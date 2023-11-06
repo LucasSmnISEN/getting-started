@@ -1,1 +1,4 @@
 name : my-ci
+
+# On déclenche le workflow sur tt push
+on : [push]
